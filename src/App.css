@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #2b4162;
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.qrcode-image {
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #1f51ff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generateBtn {
+  background-color: #1f51ff;
+}
+
+.generateBtn:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.downloadBtn {
+  background-color: #32cd32;
+  margin-left: 10px;
+}
+
+.downloadBtn:hover {
+  background-color: #7cfc00;
+  color: #000;
+}
